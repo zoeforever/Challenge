@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\challenge\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.deps.json
+C:\Users\Administrator\source\repos\challenge\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.dll
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\challenge\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.pdb
+C:\Users\Administrator\source\repos\challenge\Interfaces\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Administrator\source\repos\challenge\Interfaces\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csproj.CopyComplete
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.dll
+C:\Users\Administrator\source\repos\challenge\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.pdb
