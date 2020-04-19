@@ -19,9 +19,9 @@ namespace challenge.Middleware
         }
         public async Task Invoke(HttpContext context)
         {
-            if (context.Request.Headers.ContainsKey("BAN"))
+            if (context.Items.ContainsKey("BAN"))
             {
-                context.Request.Headers.Remove("BAN");
+                context.Items.Remove("BAN");
                 await blacklistService.AddBlacklist(new Blacklist { Ip = context.Request.Host.Host, Createtime = DateTime.Now });
                 context.Response.StatusCode = 409;
             }

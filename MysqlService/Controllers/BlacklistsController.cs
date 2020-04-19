@@ -77,7 +77,7 @@ namespace MysqlService.Controllers
         {
 #if NO_DB
             var bl = blacklists.FirstOrDefault(xx => xx.Ip == blacklistItem.Ip);
-            if (bl != null)
+            if (bl == null)
             {
                 blacklistItem.Id = blacklists.Count + 1;
                 blacklists.Add(blacklistItem);
@@ -88,7 +88,7 @@ namespace MysqlService.Controllers
             }
 #else
             var bl = dBContext.Blacklists.FirstOrDefault(xx => xx.Ip == blacklistItem.Ip);
-            if (bl != null)
+            if (bl == null)
             {
                 dBContext.Blacklists.Add(blacklistItem);
                 dBContext.SaveChanges();

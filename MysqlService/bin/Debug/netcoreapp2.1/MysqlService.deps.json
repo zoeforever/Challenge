@@ -6,6 +6,7 @@
   "compilationOptions": {
     "defines": [
       "TRACE",
+      "NO_DB",
       "DEBUG",
       "NETCOREAPP",
       "NETCOREAPP2_1"

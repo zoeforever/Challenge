@@ -43,7 +43,7 @@ namespace challenge.Middleware
                 if (left <= -30)
                 {
                     //Header中加入一个标志
-                    context.Request.Headers.Add("BAN", "1");
+                    context.Items.Add("BAN", "1");
                     await _next(context);
                 }
                 else

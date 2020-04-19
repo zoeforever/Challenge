@@ -8,7 +8,7 @@
 #pragma warning disable 693
 #pragma warning disable 1591
 #pragma warning disable 1998
-[assembly: global::Orleans.Metadata.FeaturePopulatorAttribute(typeof(OrleansGeneratedCode.OrleansCodeGen3284d9c52eFeaturePopulator))]
+[assembly: global::Orleans.Metadata.FeaturePopulatorAttribute(typeof(OrleansGeneratedCode.OrleansCodeGen1eb692f839FeaturePopulator))]
 [assembly: global::Orleans.CodeGeneration.OrleansCodeGenerationTargetAttribute(@"Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")]
 namespace Interfaces
 {
@@ -141,7 +141,7 @@ namespace Interfaces
     }
 }
 
-namespace OrleansGeneratedCode24B2802E
+namespace OrleansGeneratedCodeC64AC8ED
 {
     using global::Orleans;
     using global::System.Reflection;
@@ -187,7 +187,7 @@ namespace OrleansGeneratedCode24B2802E
 namespace OrleansGeneratedCode
 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute(@"Orleans-CodeGenerator", @"2.0.0.0")]
-    internal sealed class OrleansCodeGen3284d9c52eFeaturePopulator : global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Metadata.GrainInterfaceFeature>, global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Metadata.GrainClassFeature>, global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Serialization.SerializerFeature>
+    internal sealed class OrleansCodeGen1eb692f839FeaturePopulator : global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Metadata.GrainInterfaceFeature>, global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Metadata.GrainClassFeature>, global::Orleans.Metadata.IFeaturePopulator<global::Orleans.Serialization.SerializerFeature>
     {
         public void Populate(global::Orleans.Metadata.GrainInterfaceFeature feature)
         {
@@ -200,7 +200,7 @@ namespace OrleansGeneratedCode
 
         public void Populate(global::Orleans.Serialization.SerializerFeature feature)
         {
-            feature.AddSerializerType(typeof(global::Entities.RateLimitParameter), typeof(OrleansGeneratedCode24B2802E.OrleansCodeGenEntities_RateLimitParameterSerializer));
+            feature.AddSerializerType(typeof(global::Entities.RateLimitParameter), typeof(OrleansGeneratedCodeC64AC8ED.OrleansCodeGenEntities_RateLimitParameterSerializer));
             feature.AddKnownType(@"System.Action`9,System.Runtime", @"Action`9'9");
             feature.AddKnownType(@"System.Action`10,System.Runtime", @"Action`10'10");
             feature.AddKnownType(@"System.Action`11,System.Runtime", @"Action`11'11");
